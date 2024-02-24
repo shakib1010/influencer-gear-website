@@ -1,0 +1,21 @@
+@use '../abstract/' as *;
+.partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  margin-bottom: 8rem;
+
+  @include respond(bp-9) {
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.05) inset;
+    gap: 6rem;
+  }
+
+  &__img-box {
+  }
+
+  &__img {
+  }
+}

@@ -1,0 +1,16 @@
+var icon = document.getElementById('icon')
+var icon1 = document.getElementById('a')
+var icon2 = document.getElementById('b')
+var icon3 = document.getElementById('c')
+var nav = document.getElementById('nav')
+var navBg1 = document.getElementById('nav-bg-1')
+var navBg2 = document.getElementById('nav-bg-2')
+
+icon.addEventListener('click', function () {
+  icon1.classList.toggle('a')
+  icon2.classList.toggle('c')
+  icon3.classList.toggle('b')
+  nav.classList.toggle('show')
+  navBg1.classList.toggle('slide')
+  navBg2.classList.toggle('slide')
+})
